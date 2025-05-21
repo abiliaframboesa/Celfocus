@@ -38,8 +38,8 @@ Criação de uma plataforma digital inteligente que permite ao utilizador:
   Atualizações periódicas para garantir informação atualizada.
 
 # Futuras Expansões
-Criação de perfil inteligente por IA com histórico de uso.
-Envio automático de alertas mensais de poupança.
-Integração com apps móveis.
-API pública para parceiros (bancos, comparadores, etc.).
+- Criação de perfil inteligente por IA com histórico de uso.
+- Envio automático de alertas mensais de poupança.
+- Integração com apps móveis.
+- API pública para parceiros (bancos, comparadores, etc.).
 
