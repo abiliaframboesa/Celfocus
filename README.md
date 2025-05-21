@@ -1,4 +1,5 @@
-## Celfocus GenAI Hackathon
+## TelePlan
+# App desenvolvida no âmbito do Celfocus GenAI Hackathon
 
 # Overview
 Este projeto visa oferecer personalização hiper-recomendada para utilizadores de serviços de telecomunicações, com base na análise automatizada das suas faturas mensais. Através da inteligência de dados e automação, a plataforma identifica oportunidades de poupança e recomenda planos mais adequados ao perfil real de consumo do utilizador.
