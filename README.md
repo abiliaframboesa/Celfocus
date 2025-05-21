@@ -5,11 +5,9 @@ App desenvolvida no âmbito do Celfocus GenAI Hackathon
 Este projeto visa oferecer personalização hiper-recomendada para utilizadores de serviços de telecomunicações, com base na análise automatizada das suas faturas mensais. Através da inteligência de dados e automação, a plataforma identifica oportunidades de poupança e recomenda planos mais adequados ao perfil real de consumo do utilizador.
 
 # Problem Statement
-Utilizadores de telecoms frequentemente pagam por serviços que não usam totalmente ou que não são ideais para o seu perfil de consumo.
-
-As operadoras não oferecem recomendações neutras ou personalizadas com base no uso real.
-
-A comparação entre planos é complexa e pouco transparente para o utilizador comum.
+- Utilizadores de telecoms frequentemente pagam por serviços que não usam totalmente ou que não são ideais para o seu perfil de consumo.
+- As operadoras não oferecem recomendações neutras ou personalizadas com base no uso real.
+- A comparação entre planos é complexa e pouco transparente para o utilizador comum.
 
 # Solução Proposta
 Criação de uma plataforma digital inteligente que permite ao utilizador:
