@@ -2,27 +2,59 @@ import streamlit as st
 import pandas as pd
 
 def main():
-    # Estilo moderno e limpo
+    # CSS para design moderno, slogan destacado e correção do file uploader
     st.markdown("""
         <style>
             .stApp {
                 background-color: #f4f6f9;
                 font-family: 'Segoe UI', sans-serif;
             }
-            h1, h3 {
-                font-weight: 600;
-            }
             h1 {
                 color: #0A66C2;
                 font-size: 2.8em;
+                text-align: center;
                 margin-bottom: 0.2em;
-                text-align: center;
+                font-weight: 700;
             }
-            h3 {
-                color: #555;
+            .login-link {
+                text-align: right;
+                margin-top: -30px;
+                margin-bottom: 20px;
+                padding-right: 20px;
+            }
+            .login-link a {
+                color: #0A66C2;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 1em;
+            }
+            .slogan {
                 text-align: center;
-                margin-top: -10px;
-                margin-bottom: 30px;
+                color: #333;
+                font-size: 1.4em;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            .divider {
+                width: 80px;
+                height: 4px;
+                background-color: #0A66C2;
+                margin: 0 auto 30px auto;
+                border-radius: 2px;
+            }
+            .upload-box {
+                background-color: #ffffff;
+                padding: 2rem;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+                max-width: 600px;
+                margin: auto;
+            }
+            .stFileUploader label {
+                display: none !important;
+            }
+            .stFileUploader > div {
+                margin-top: 0 !important;
             }
             .stButton>button {
                 background-color: #0A66C2;
@@ -37,37 +69,18 @@ def main():
                 background-color: #004a99;
                 transform: scale(1.01);
             }
-            .stFileUploader {
-                border: none !important;
-            }
-            .upload-box {
-                background-color: #ffffff;
-                padding: 2rem;
-                border-radius: 12px;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-                max-width: 600px;
-                margin: auto;
-            }
-            .login-link {
-                text-align: right;
-                margin-top: -30px;
-                margin-bottom: 20px;
-                padding-right: 20px;
-            }
-            .login-link a {
-                color: #0A66C2;
-                font-weight: bold;
-                text-decoration: none;
-            }
         </style>
     """, unsafe_allow_html=True)
 
     # Cabeçalho
     st.markdown("<h1>TELEPLAN 📱</h1>", unsafe_allow_html=True)
     st.markdown("<div class='login-link'><a href='#'>🔑 Login</a></div>", unsafe_allow_html=True)
-    st.markdown("<h3>Stop overpaying, find the perfect plan</h3>", unsafe_allow_html=True)
 
-    # Caixa centralizada para upload
+    # Slogan com destaque visual
+    st.markdown("<div class='slogan'>Stop overpaying, find the perfect plan</div>", unsafe_allow_html=True)
+    st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
+
+    # Caixa de upload centralizada e com estilo
     st.markdown("<div class='upload-box'>", unsafe_allow_html=True)
     uploaded_file = st.file_uploader("📄 Upload your CSV invoice", type="csv")
     submit = st.button("🚀 Submit")
