@@ -1,5 +1,7 @@
 # TelePlan
-App desenvolvida no âmbito do Celfocus GenAI Hackathon
+App desenvolvida no âmbito do Celfocus GenAI Hackathon.
+Para correr a app será necessário correr o seguinte comando no terminal: python -m streamlit run app.py 
+De seguida fazer upload dos ficheiros CSV na app
 
 # Overview
 Este projeto visa oferecer personalização hiper-recomendada para utilizadores de serviços de telecomunicações, com base na análise automatizada das suas faturas mensais. Através da inteligência de dados e automação, a plataforma identifica oportunidades de poupança e recomenda planos mais adequados ao perfil real de consumo do utilizador.
