@@ -1,5 +1,5 @@
 # TelePlan
-App desenvolvida no âmbito do Celfocus GenAI Hackathon.
+App desenvolvida no âmbito do Celfocus GenAI Hackathon 2025.
 
 Para correr a app será necessário correr o seguinte comando no terminal: python -m streamlit run app.py 
 
