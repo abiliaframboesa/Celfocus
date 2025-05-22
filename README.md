@@ -50,8 +50,8 @@ Criação de uma plataforma digital inteligente que permite ao utilizador:
 - API pública para parceiros (bancos, comparadores, etc.).
 
 # Demo da app em fotografias
-![Imagem inicial](caminho/para/imagem.jpg)
-![Imagem dos planos](caminho/para/imagem.jpg)
-![Imagem do plano recomendado justificado em NLP](caminho/para/imagem.jpg)
+![Imagem inicial](dashboard-comparativa-de-plafonds/public/1.JPG)
+![Imagem dos planos](dashboard-comparativa-de-plafonds/public/2.JPG)
+![Imagem do plano recomendado justificado em NLP](dashboard-comparativa-de-plafonds/public/3.JPG)
 
 
