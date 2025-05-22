@@ -5,6 +5,8 @@ Para correr a app será necessário correr o seguinte comando no terminal: pytho
 
 De seguida fazer upload dos ficheiros CSV na app.
 
+Será necessário também ter um token ativo de uma llm e inserir a respetiva chave na seccção designada no código da app (no nosso caso usámos a llm deepseek a partir do HuggingFace).
+
 # Overview
 Este projeto visa oferecer personalização hiper-recomendada para utilizadores de serviços de telecomunicações, com base na análise automatizada das suas faturas mensais. Através da inteligência de dados e automação, a plataforma identifica oportunidades de poupança e recomenda planos mais adequados ao perfil real de consumo do utilizador.
 
