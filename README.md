@@ -49,3 +49,9 @@ Criação de uma plataforma digital inteligente que permite ao utilizador:
 - Integração com apps móveis.
 - API pública para parceiros (bancos, comparadores, etc.).
 
+# Demo da app em fotografias
+![Imagem inicial](caminho/para/imagem.jpg)
+![Imagem dos planos](caminho/para/imagem.jpg)
+![Imagem do plano recomendado justificado em NLP](caminho/para/imagem.jpg)
+
+
